@@ -1,0 +1,40 @@
+h2 {
+  color: rebeccapurple;
+}
+
+.card:hover img {
+  transform: scale(1.3, 1.3);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  height: 250px;
+}
+
+.card img {
+  transform: scale(1.1, 1.1);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  height: 250px;
+}
+
+.img-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.member-icons {
+  position: absolute;
+  bottom: -10%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  opacity: 0;
+}
+
+.img-wrapper:hover .member-icons {
+  bottom: 0;
+  opacity: 1;
+}
+
+.animate {
+  transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Name": "Casa do seu Zé",
+    "Type": "Casa",
+    "Price": 200000
+  },
+  {
+    "Id": 2,
+    "Name": "Casa do seu Jorge",
+    "Type": "Casa",
+    "Price": 300000
+  },
+  {
+    "Id": 3,
+    "Name": "Apartamento do meu amigo",
+    "Type": "Apartamento",
+    "Price": 1500000
+  },
+  {
+    "Id": 4,
+    "Name": "Sitio da Marisa",
+    "Type": "Casa de Campo",
+    "Price": 2000000
+  }
+]
